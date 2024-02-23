@@ -1,0 +1,23 @@
+.main-page{
+    max-width: 50% !important;
+    margin: 120px auto !important;
+    background-color: rgb(156, 154, 152);
+}
+
+.form{
+    margin-top: 30px !important;
+}
+
+.temperature{
+    font-size: 120px !important;
+}
+
+.temp{
+    margin: 72px 72px 0 72px !important;
+}
+
+.weather{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
