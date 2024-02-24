@@ -1,11 +1,21 @@
+.contain{
+    height: 100vh;
+}
+
 .main-page{
     max-width: 50% !important;
-    margin: 120px auto !important;
-    background-color: rgb(156, 154, 152);
+    background: linear-gradient(
+      217deg,
+      rgb(255 0 0 / 80%),
+      rgb(255 0 0 / 0%) 70.71%
+    ), linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);    
+    padding: 12px;
+    margin-top: 24px;
 }
 
 .form{
-    margin-top: 30px !important;
+    margin-top: 40px !important;
 }
 
 .temperature{
@@ -13,11 +23,21 @@
 }
 
 .temp{
-    margin: 72px 72px 0 72px !important;
+    margin: 72px 72px !important;
 }
 
 .weather{
     width: 200px;
     height: 200px;
     text-align: center;
+}
+
+.error {
+    display: none;
+    font-size: 24px;
+    color: white;
+}
+
+.minimize{
+    display: none;
 }
